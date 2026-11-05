@@ -1,0 +1,25 @@
+{
+  "accuracy": 0.8201438848920863,
+  "balanced_accuracy": 0.8267622461170848,
+  "precision_weighted": 0.8612610612772055,
+  "recall_weighted": 0.8201438848920863,
+  "f1_weighted": 0.8309512885911469,
+  "f1_macro": 0.7754732829359695,
+  "per_class": {
+    "Pure": {
+      "precision": 0.5652173913043478,
+      "recall": 0.8387096774193549,
+      "f1": 0.6753246753246753,
+      "support": 62
+    },
+    "Adulterated": {
+      "precision": 0.946236559139785,
+      "recall": 0.8148148148148148,
+      "f1": 0.8756218905472637,
+      "support": 216
+    }
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n        Pure       0.57      0.84      0.68        62\n Adulterated       0.95      0.81      0.88       216\n\n    accuracy                           0.82       278\n   macro avg       0.76      0.83      0.78       278\nweighted avg       0.86      0.82      0.83       278\n",
+  "positive_class": "Pure",
+  "auc_roc": 0.11014038231780167
+}

@@ -1,0 +1,16 @@
+{
+  "exact_cross_split_groups": 8,
+  "exact_cross_split_hashes": [
+    "10045a034232f9fe04ccb6113f5767c2",
+    "2f70725cd46105ebc8c87bff3baad400",
+    "38004384c2bfe89ca3fae94761c92cdf",
+    "4768da7e074bf6c04e61f03af91116d7",
+    "620efb355c3bf0d0fd71787251dc201c",
+    "952382d58bec749707be2cbbf507d677",
+    "eee537f5387ec6344f1009659c1f02ce",
+    "ffd2eb795945126b4324b70c05d5df99"
+  ],
+  "perceptual_cross_split_groups": 8,
+  "note": "Train-side copies of cross-split duplicates are excluded from the training pool. The official test set is NOT modified.",
+  "train_side_excluded_count": 8
+}

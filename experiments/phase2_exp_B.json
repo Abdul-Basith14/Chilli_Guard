@@ -1,0 +1,38 @@
+{
+  "exp_id": "B",
+  "use_class_weights": true,
+  "best_epoch": 3,
+  "checkpoint": "C:\\01.Myuse\\chili_adult\\ml\\models\\binary_exp_b_best.pth",
+  "val_accuracy": 0.7468354430379747,
+  "val_balanced_accuracy": 0.6752289479562207,
+  "val_macro_f1": 0.6652542372881356,
+  "val_auc_roc": 0.2224704042885861,
+  "val_per_class": {
+    "Pure": {
+      "precision": 0.46511627906976744,
+      "recall": 0.5405405405405406,
+      "f1": 0.5,
+      "support": 37
+    },
+    "Adulterated": {
+      "precision": 0.8521739130434782,
+      "recall": 0.8099173553719008,
+      "f1": 0.8305084745762712,
+      "support": 121
+    }
+  },
+  "val_classification_report": "              precision    recall  f1-score   support\n\n        Pure       0.47      0.54      0.50        37\n Adulterated       0.85      0.81      0.83       121\n\n    accuracy                           0.75       158\n   macro avg       0.66      0.68      0.67       158\nweighted avg       0.76      0.75      0.75       158\n",
+  "config": {
+    "epochs": 3,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "image_size": [
+      224,
+      224
+    ],
+    "freeze_backbone": true,
+    "seed": 42,
+    "model_arch": "resnet18"
+  }
+}

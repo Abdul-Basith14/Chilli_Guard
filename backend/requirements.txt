@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ChilliGuard Backend — Python Dependencies
+# Tested on Python 3.10+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Settings management (reads from .env)
+pydantic-settings==2.6.1
+
+# File handling & image validation
+python-multipart==0.0.12
+Pillow==11.0.0
+
+# HTTP utilities
+httpx==0.28.0
+
+# Type-safety helpers (already a pydantic dependency but pinned explicitly)
+pydantic==2.10.3

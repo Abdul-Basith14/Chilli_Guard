@@ -1,0 +1,137 @@
+{
+  "exp_id": "D",
+  "fine_tune_mode": "full",
+  "use_class_weights": true,
+  "backbone_lr": 1e-05,
+  "head_lr": 0.001,
+  "weight_decay": 0.0001,
+  "best_epoch": 15,
+  "epochs_run": 15,
+  "total_training_time_seconds": 18354.2,
+  "device": "cpu",
+  "trainable_params": 11186259,
+  "total_params": 11186259,
+  "checkpoint": "C:\\01.Myuse\\chili_adult\\ml\\models\\multiclass_exp_d_best.pth",
+  "val_accuracy": 0.6392405063291139,
+  "val_balanced_accuracy": 0.603698695803959,
+  "val_macro_f1": 0.5918376650268676,
+  "val_weighted_f1": 0.6305423740819204,
+  "val_top5_accuracy": 0.9667721518987342,
+  "val_per_class": {
+    "KT00": {
+      "precision": 0.5882352941176471,
+      "recall": 0.2702702702702703,
+      "f1": 0.37037037037037035,
+      "support": 37
+    },
+    "KTBM_10": {
+      "precision": 0.38461538461538464,
+      "recall": 0.4166666666666667,
+      "f1": 0.4,
+      "support": 12
+    },
+    "KTBM_15": {
+      "precision": 0.34782608695652173,
+      "recall": 0.6153846153846154,
+      "f1": 0.4444444444444444,
+      "support": 13
+    },
+    "KTBM_5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11
+    },
+    "KTGM_10": {
+      "precision": 0.5714285714285714,
+      "recall": 0.45714285714285713,
+      "f1": 0.5079365079365079,
+      "support": 35
+    },
+    "KTGM_15": {
+      "precision": 0.3584905660377358,
+      "recall": 0.95,
+      "f1": 0.5205479452054794,
+      "support": 40
+    },
+    "KTGM_5": {
+      "precision": 0.8636363636363636,
+      "recall": 0.5135135135135135,
+      "f1": 0.6440677966101694,
+      "support": 37
+    },
+    "KTRB_10": {
+      "precision": 0.5,
+      "recall": 0.24324324324324326,
+      "f1": 0.32727272727272727,
+      "support": 37
+    },
+    "KTRB_15": {
+      "precision": 0.7755102040816326,
+      "recall": 0.95,
+      "f1": 0.8539325842696629,
+      "support": 40
+    },
+    "KTRB_5": {
+      "precision": 0.6388888888888888,
+      "recall": 0.6216216216216216,
+      "f1": 0.6301369863013698,
+      "support": 37
+    },
+    "KTUT_10": {
+      "precision": 0.40350877192982454,
+      "recall": 0.6216216216216216,
+      "f1": 0.48936170212765956,
+      "support": 37
+    },
+    "KTUT_15": {
+      "precision": 1.0,
+      "recall": 0.8918918918918919,
+      "f1": 0.9428571428571428,
+      "support": 37
+    },
+    "KTUT_5": {
+      "precision": 0.4090909090909091,
+      "recall": 0.4864864864864865,
+      "f1": 0.4444444444444444,
+      "support": 37
+    },
+    "KTWB_10": {
+      "precision": 0.8095238095238095,
+      "recall": 0.4594594594594595,
+      "f1": 0.5862068965517241,
+      "support": 37
+    },
+    "KTWB_15": {
+      "precision": 0.7560975609756098,
+      "recall": 0.8378378378378378,
+      "f1": 0.7948717948717948,
+      "support": 37
+    },
+    "KTWB_5": {
+      "precision": 1.0,
+      "recall": 0.32432432432432434,
+      "f1": 0.4897959183673469,
+      "support": 37
+    },
+    "KTWS_10": {
+      "precision": 0.875,
+      "recall": 0.9459459459459459,
+      "f1": 0.9090909090909091,
+      "support": 37
+    },
+    "KTWS_15": {
+      "precision": 0.9705882352941176,
+      "recall": 0.8918918918918919,
+      "f1": 0.9295774647887324,
+      "support": 37
+    },
+    "KTWS_5": {
+      "precision": 0.9473684210526315,
+      "recall": 0.972972972972973,
+      "f1": 0.96,
+      "support": 37
+    }
+  },
+  "val_classification_report": "              precision    recall  f1-score   support\n\n        KT00       0.59      0.27      0.37        37\n     KTBM_10       0.38      0.42      0.40        12\n     KTBM_15       0.35      0.62      0.44        13\n      KTBM_5       0.00      0.00      0.00        11\n     KTGM_10       0.57      0.46      0.51        35\n     KTGM_15       0.36      0.95      0.52        40\n      KTGM_5       0.86      0.51      0.64        37\n     KTRB_10       0.50      0.24      0.33        37\n     KTRB_15       0.78      0.95      0.85        40\n      KTRB_5       0.64      0.62      0.63        37\n     KTUT_10       0.40      0.62      0.49        37\n     KTUT_15       1.00      0.89      0.94        37\n      KTUT_5       0.41      0.49      0.44        37\n     KTWB_10       0.81      0.46      0.59        37\n     KTWB_15       0.76      0.84      0.79        37\n      KTWB_5       1.00      0.32      0.49        37\n     KTWS_10       0.88      0.95      0.91        37\n     KTWS_15       0.97      0.89      0.93        37\n      KTWS_5       0.95      0.97      0.96        37\n\n    accuracy                           0.64       632\n   macro avg       0.64      0.60      0.59       632\nweighted avg       0.69      0.64      0.63       632\n"
+}

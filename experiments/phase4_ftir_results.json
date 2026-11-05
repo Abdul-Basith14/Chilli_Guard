@@ -1,0 +1,72 @@
+{
+  "best_model_name": "SNV + SVM (Linear)",
+  "cv_results": [
+    {
+      "model_name": "SNV + SVM (Linear)",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    },
+    {
+      "model_name": "SNV + SVM (RBF)",
+      "cv_accuracy": 0.9549019607843137,
+      "cv_macro_f1": 0.95227555053642
+    },
+    {
+      "model_name": "SG 1st Deriv + SVM (Linear)",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    },
+    {
+      "model_name": "SG 1st Deriv + SVM (RBF)",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    },
+    {
+      "model_name": "SG 2nd Deriv + SVM (RBF)",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    },
+    {
+      "model_name": "SG 1st Deriv + Random Forest",
+      "cv_accuracy": 0.9882352941176471,
+      "cv_macro_f1": 0.9865612648221344
+    },
+    {
+      "model_name": "SG 1st Deriv + Gradient Boosting",
+      "cv_accuracy": 0.9882352941176471,
+      "cv_macro_f1": 0.9865612648221344
+    },
+    {
+      "model_name": "SG 1st Deriv + Extra Trees",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    },
+    {
+      "model_name": "SG 1st Deriv + Logistic Regression",
+      "cv_accuracy": 1.0,
+      "cv_macro_f1": 1.0
+    }
+  ],
+  "validation_metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "f1_macro": 1.0
+  },
+  "concentration_regression_metrics": {
+    "mae_percent": 0.35855606744854834,
+    "rmse_percent": 0.519003443806973,
+    "r2_score": -4.746444259914622
+  },
+  "split_counts": {
+    "train": 89,
+    "val": 20,
+    "test": 31
+  }
+}
